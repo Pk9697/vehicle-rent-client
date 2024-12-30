@@ -28,7 +28,6 @@ const login = createAsyncThunk(
   }
 )
 
-//   TODO in backend
 const logout = createAsyncThunk(
   'auth/logout',
   async (data, { getState, rejectWithValue }) => {
@@ -47,7 +46,6 @@ const logout = createAsyncThunk(
   }
 )
 
-//   TODO in backend
 const verifyAccessToken = createAsyncThunk(
   'auth/verifyAccessToken',
   async (_, { getState, rejectWithValue }) => {
